@@ -1,2 +1,24 @@
-# Examples
-Java and C
+//üçgenin alanını hesaplayan Java kodu.
+
+package ornekkodlar;
+
+import java.util.Scanner;
+
+public class ornekkod1 {
+    public static void main(String[] args) {
+
+         char edge = 'a';
+         char height = 'h';
+
+         Scanner oku = new Scanner(System.in);
+         System.out.println("Please enter a length of edge: ");
+         int a = oku.nextInt();
+         System.out.println("Please enter a height: ");
+         int h = oku.nextInt();
+
+         System.out.println("The area of triangle:  "+ ((a*h)/2));
+
+
+
+    }
+}
